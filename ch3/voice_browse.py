@@ -31,7 +31,6 @@ def clear_screen():
 speech = sr.Recognizer()
 
 # Begin Infinite Loop
-while True:
 
     # Get Some Voice Input
     inp = voice_to_text()    
