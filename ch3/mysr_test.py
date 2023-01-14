@@ -5,7 +5,7 @@ while True:
     inp = ""
 
     # Begin to Listen:
-    inp = voice_to_text()
+    inp = voice_to_text(1)
     
     # Print what I said
     print(f"You just said: {inp}")
